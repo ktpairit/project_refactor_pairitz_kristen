@@ -41,11 +41,12 @@ a {
 
 #wrapper {
     background: #FFFFFF url(../img/img05.jpg) repeat;
+    padding: 16px;
 }
 
 .container {
     width: 100%;
-    margin: 0px auto;
+    margin: auto;
 }
 
 /* Header */
