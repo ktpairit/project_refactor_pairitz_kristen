@@ -87,15 +87,10 @@ a {
 
 #menu {
     width: 100%;
-    margin: 0 auto;
-    padding: 0;
 }
 
 #menu ul {
-    margin: 0;
-    padding: 20px 0px 0px 0px;
     list-style: none;
-    line-height: normal;
 }
 
 #menu a {
