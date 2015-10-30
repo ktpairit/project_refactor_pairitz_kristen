@@ -1,6 +1,9 @@
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
 body {
-    margin: 0;
-    padding: 0;
     background: #050505 url(../img/img01.jpg) repeat;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -8,8 +11,6 @@ body {
 }
 
 h1, h2, h3 {
-    margin: 0;
-    padding: 0;
     text-transform: uppercase;
     font-weight: normal;
     font-family: 'Oswald', sans-serif;
@@ -58,7 +59,6 @@ a {
 /* Logo */
 
 #logo {
-    float: left;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -86,22 +86,16 @@ a {
 /* Menu */
 
 #menu {
-    float: right;
     width: 100%;
     margin: 0 auto;
     padding: 0;
 }
 
 #menu ul {
-    float: right;
     margin: 0;
     padding: 20px 0px 0px 0px;
     list-style: none;
     line-height: normal;
-}
-
-#menu li {
-    float: left;
 }
 
 #menu a {
@@ -126,6 +120,15 @@ a {
     color: #FFFFFF;
 }
 
+/* #banner */
+
+#banner img {
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+    background: url(../img/img03.png) no-repeat left bottom;
+}
+
 /* Page */
 
 #page {
@@ -136,14 +139,7 @@ a {
 
 /* Content */
 
-#content {
-    float: right;
-    width: 100%;
-    padding: 0px 0px 0px 0px;
-}
-
 .post {
-    overflow: hidden;
     margin-bottom: 40px;
     border-bottom: 1px solid #E7EBED;
 }
@@ -168,14 +164,6 @@ a {
     font-weight: 300;
 }
 
-.post .meta .date {
-    float: left;
-}
-
-.post .meta .posted {
-    float: right;
-}
-
 .post .entry {
     padding: 0px 0px 40px 0px;
     text-align: justify;
@@ -187,9 +175,6 @@ a {
 }
 
 .more {
-    display: block;
-    float: left;
-    width: 88px;
     padding: 5px 5px;
     margin-right: 10px;
     background: #222222;
@@ -199,9 +184,6 @@ a {
 }
 
 .comments {
-    display: block;
-    float: left;
-    width: 88px;
     padding: 5px 5px;
     background: #222222;
     color: #FFFFFF;
@@ -212,7 +194,6 @@ a {
 /* Sidebar */
 
 #sidebar {
-    float: left;
     width: 100%;
     margin: 0px;
     padding: 30px 0px 0px 0px;
@@ -239,14 +220,6 @@ a {
     border-bottom: 1px solid #E7EBED;
     margin: 0px 0px;
     border-left: none;
-}
-
-#sidebar li li span {
-    display: block;
-    margin-top: -20px;
-    padding: 0;
-    font-size: 11px;
-    font-style: italic;
 }
 
 #sidebar li li a {
@@ -293,56 +266,4 @@ a {
     text-transform: uppercase;
     text-align: center;
     color: #5E5E5E;
-}
-
-#marketing {
-    overflow: hidden;
-    margin-bottom: 30px;
-    padding: 20px 0px 10px 0px;
-    border-top: 1px solid #E7EBED;
-    border-bottom: 1px solid #E7EBED;
-}
-
-#marketing .text1 {
-    float: left;
-    margin: 0px;
-    padding: 0px;
-    letter-spacing: -2px;
-    text-transform: lowercase;
-    font-size: 34px;
-    color: #345E9B;
-}
-
-#marketing .text2 {
-    float: right;
-}
-
-#marketing .text2 a {
-    display: block;
-    width: 252px;
-    height: 38px;
-    padding: 15px 0px 0px 0px;
-    background: url(../img/img07.jpg) no-repeat left top;
-    letter-spacing: -2px;
-    text-align: center;
-    text-transform: lowercase;
-    font-size: 30px;
-    color: #FFFFFF;
-}
-
-#banner img {
-    margin: 0px auto;
-    width: 100%;
-    height: auto;
-    background: url(../img/img03.png) no-repeat left bottom;
-}
-
-.list-style1 {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-
-.list-style1 a {
-    color: #7F7F7F;
 }
