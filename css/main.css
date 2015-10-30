@@ -67,7 +67,6 @@ a {
 }
 
 #logo h1 {
-    line-height: 120px;
     letter-spacing: -2px;
     font-size: 3.8em;
 }
@@ -101,7 +100,7 @@ a {
 
 #menu a {
     display: block;
-    line-height: 100px;
+    line-height: 4em; /* 4*16 = 64px which is over the min required height (45px) for a button on mobile design */
     margin-right: 1px;
     padding: 0px 20px 0px 20px;
     text-decoration: none;
