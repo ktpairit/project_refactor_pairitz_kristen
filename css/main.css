@@ -166,6 +166,13 @@ a, footer p {
 
 /* Content */
 
+.post .meta .date {
+    float: left;
+}
+
+.post .meta .posted {
+    float: right;
+}
 .post {
     margin-bottom: 40px;
     border-bottom: 1px solid #E7EBED;
