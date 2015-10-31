@@ -12,6 +12,10 @@ html {
 	box-sizing: inherit;
 }
 
+.site-container {
+	max-width: 1000px;
+}
+
 body {
     background: #050505 url(../img/img01.jpg) repeat;
     font-family: Arial, Helvetica, sans-serif;
@@ -73,7 +77,7 @@ a {
     margin: auto;
     padding: 0;
     color: #FFFFFF;
-    text-align: center;
+    text-align: left;
 }
 
 #logo h1 {
@@ -96,6 +100,7 @@ a {
 /* Menu */
 
 #menu {
+	margin: auto;
     width: 100%;
 }
 
@@ -127,8 +132,12 @@ a {
 
 /* #banner */
 
+#banner {
+	margin: auto;
+	width: 100%;
+}
+
 #banner img {
-    margin: 0px auto;
     width: 100%;
     height: auto;
     background: url(../img/img03.png) no-repeat left bottom;
