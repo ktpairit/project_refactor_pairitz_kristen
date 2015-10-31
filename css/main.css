@@ -223,10 +223,21 @@ a, footer p {
     text-decoration: none;
 }
 
+@media all and (min-width: 700px) {
+	#content {
+		float: right;
+		width: calc(100% / 3 * 2);
+	}
+
+	#sidebar {
+		float: left;
+		width: calc(100% / 3);
+	}
+}
+
 /* Sidebar */
 
 #sidebar {
-    width: 100%;
     padding: 30px 0px 0px 0px;
 }
 
