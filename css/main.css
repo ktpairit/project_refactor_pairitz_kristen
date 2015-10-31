@@ -239,7 +239,7 @@ a, footer p {
 .group::after {
 	content: '';
 	clear: both;
-	display: both;
+	display: block;
 }
 
 /* Sidebar */
